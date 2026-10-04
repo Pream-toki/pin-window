@@ -1,7 +1,20 @@
 # Pin window
 
-Click the window you want, then tray → **Pin foreground window**. It stays on top of lectures / games / browsers until you unpin.
+Makes one window stay on top of the others (notes over a lecture, calculator over a spreadsheet).
 
-Unpin from the list or **Unpin all**. Uses the normal Windows “always on top” flag. No overlay, no hook.
+## Setup
 
-`START.bat`
+Python 3 → `START.bat` → red pin icon in the tray.
+
+## Use
+
+1. Click the window you want (it must be the front window).
+2. Tray → **Pin foreground window**.
+3. To undo: tray → **Unpin:** that title, or **Unpin all**.
+
+**Careful**
+
+- Pin the *window*, not the desktop. If you pin the wrong thing, unpin all.
+- Some games / full screen apps ignore “always on top”. That’s Windows, not a crash.
+- **Quit** also unpins.
+- **Start with Windows** is optional; you probably don’t need it.
